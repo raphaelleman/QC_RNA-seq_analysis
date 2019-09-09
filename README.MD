@@ -3,7 +3,7 @@
 
 This repository gathers the scripts and references to analyse the data provide by the [SpliceLauncher pipeline](https://github.com/raphaelleman/SpliceLauncher,"tittle"). The RNA-seq experiment was performed on the behalf of the [ENIGMA consortium](https://enigmaconsortium.org/,"tittle").
 
-![ENIGMA](https://enigmaconsortium.org/wp-content/uploads/2016/01/ENIGMA-logo-FINAL-2503_2016kopie_minderhoog.png)
+![ENIGMA](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/refData/ENIGMA-logo.png)
 
 To use these scripts you will need the dependancies :
 + [DEXseq](https://bioconductor.org/packages/release/bioc/html/DEXSeq.html,"tittle")
@@ -17,7 +17,7 @@ To use these scripts you will need the dependancies :
 
 to downlod this repository:
 ```bash
-git clone https://github.com/raphaelleman/?????????
+git clone https://github.com/raphaelleman/QC_RNA-seq_analysis.git
 ```
 
 The participating laboratories are :
@@ -37,7 +37,7 @@ The participating laboratories are :
 
 ## Read count for gene and exon
 
-To compare the coverage across the different sites, we propose a short pipeline that uses HTSeq count and DEXseq. We provide also in refData, examples of reference GTF file used by these tools for the *BRCA1* and *BRCA2* genes (hg19). To perform this read count, the pipeline starts from the aligned BAM files. It uses samtools to sort the BAM files, then convert them in SAM files. From these SAM files, the pipeline counts the read number of each region defined in the GTF file. The pipeline performs the read count differently if the data is single-end or paired-end (option: **-p**).
+To compare the coverage across the different sites, we propose a short pipeline that uses HTSeq count and DEXseq. We provide also in refData, examples of reference GTF file used by these tools for the *BRCA1* and *BRCA2* genes (hg19). To perform this read count, the pipeline starts from the aligned BAM files. It uses samtools to sort the BAM files, then convert them in SAM files. From these SAM files, the pipeline counts the read number of each region defined in the GTF file, examples ar in [refData](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/refData, "tittle"). The pipeline performs the read count differently if the data is single-end or paired-end (option: **-p**).
 
 Usage example:
 
