@@ -2,13 +2,13 @@ options(stringsAsFactors=FALSE)
 library(stats)
 
 argsFull <- commandArgs()
-helpMessage=paste("Usage: getACP.r\n
+helpMessage=paste("Usage: analyzeIVS10-2data.r\n
     [Mandatory] \n
         -I1, --input1 /path/to/untreated data\n\t\tNMD inhibitor untreated data of IVS10-2 (.txt)
         -I2, --input2 /path/to/treated data\n\t\tNMD inhibitor treated data of IVS10-2 (.txt)
         -O, --output /path/to/output folder/\n\t\tFolder to save the results\n
     h, --help\n\t\tprint this help message and exit\n
-   You could : Rscript getACP.r -I path/to/matrices -O ./outputTest/")
+   You could : Rscript analyzeIVS10-2data.r -I path/to/matrices -O ./outputTest/")
 
 #get script argument
 if (length(which(argsFull=="--args"))==0){message(helpMessage);q(save = "no")}
@@ -59,8 +59,8 @@ if(missing(cex.cor)) cex.cor = 0.8/strwidth(txt)
 text(0.5,0.5,txt,cex=cex.cor * r)
 }
 setwd(outputDir)
-
 dataCorrUntrPercent = dataUntreated[dataUntreated$nbOccur>=4,which(substr(colnames(dataUntreated),1,2)=="P_")]
+print(dim(dataCorrUntrPercent))
 dataCorrTrPercent = dataTreated[dataTreated$nbOccur>=4,which(substr(colnames(dataTreated),1,2)=="P_")]
 pdf("CorrExprUntreatedIVS10-2.pdf")
 pairs(dataCorrUntrPercent,lower.panel=panel.smooth, diag.panel=panel.hist,upper.panel=panel.cor)

@@ -34,10 +34,11 @@ The participating laboratories are :
 | Caen | Centre François Baclesse, France | targeted RNA-seq |
 | Inge | ClinicalCancerResearch Center,AalborgUniversityHospital,Aalborg,Denmark | whole transcriptome RNA-seq |
 
+The correspondance between sample names and its descriptions is available at [list_samples.txt](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/list_samples.txt, "tittle")
 
 ## Read count for gene and exon
 
-To compare the coverage across the different sites, we propose a short pipeline that uses HTSeq count and DEXseq. We provide also in refData, examples of reference GTF file used by these tools for the *BRCA1* and *BRCA2* genes (hg19). To perform this read count, the pipeline starts from the aligned BAM files. It uses samtools to sort the BAM files, then convert them in SAM files. From these SAM files, the pipeline counts the read number of each region defined in the GTF file, examples ar in [refData](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/refData, "tittle"). The pipeline performs the read count differently if the data is single-end or paired-end (option: **-p**).
+To compare the coverage across the different sites, we propose a short pipeline ([countReadGeneExon.sh](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/scripts/countReadGeneExon.sh, "tittle")) that uses HTSeq count and DEXseq. We provide also in [refData](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/refData, "tittle"), examples of reference GTF file used by these tools for the *BRCA1* and *BRCA2* genes (hg19). This pipeline starts from the aligned BAM files. It uses samtools to sort the BAM files, then converts them in SAM files. From these SAM files, the pipeline counts the read number of each region defined in the GTF file. The pipeline performs the read count differently if the data is single-end or paired-end (option: **-p**).
 
 Usage example:
 
@@ -48,8 +49,20 @@ bash ./scripts/countReadGeneExon.sh -B /path/to/bamfolder \
     --samtools /path/to/samtools \
     --htseq /path/to/htseq \
     --dexseq /path/to/dexseq script \
-    --refGene /path/to/geneCoordonate.gtf \
-    --refExon /path/to/exonCoordonate.gtf
+    --refGene /path/to/refgene_BRCA.gtf \
+    --refExon /path/to/refgene_exon_BRCA.gtf
+```
+
+We propose the script [mergeCountFile.r](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/scripts/mergeCountFile.r, "tittle") to gather the count file by laboratories.
+
+Usage example:
+
+```bash
+Rscript mergeCountFile.r \
+        -D "/path/to/directory1;/path/to/directory2" \
+        -n "laboratory1;laboratory2" \
+        --countType htseq \
+        -O /path/to/output.txt \
 ```
 
 ## Descritpive analysis from read count
@@ -58,7 +71,7 @@ We propose two type of unsupervised analyses to compare the different laboratory
 
 1 **Merge matrix count**
 
-Use the script *mergeMatrixCount.r*, define the folder were are saved the matrix count (.txt) and the name of output file. By default the script taka only into account the *BRCA1/2* transcripts
+Use the script [mergeMatrixCount.r](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/scripts/mergeMatrixCount.r, "tittle"), define the folder were are saved the matrix count (.txt) and the name of output file. By default the script taka only into account the *BRCA1/2* transcripts
 
 Usage example:
 
@@ -68,7 +81,7 @@ Rscript ./scripts/mergeMatrixCount.r -I /path/to/matrices directory -O /path/to/
 
 2 **Venn diagramm**
 
-Here we provide the script *getVennDiagram.r* to generate the Venn diagram from the common matrix count. The number of common junction across laboratories independently of number of ensembles (=laboratories). However the diagramm could be draw only if there is less than 5 ensembles (option: **--plot**). The user can also define a list of juncyion of interest in the format *chrXX_start_end_strand*, *e.g.* the known alternative splicing of *BRCA1/2* in the file *listCoordAltEvent.txt* (option: **-L**).
+Here we provide the script [getVennDiagram.r](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/scripts/getVennDiagram.r, "tittle") to generate the Venn diagram from the common matrix count. The number of common junction across laboratories independently of number of ensembles (=laboratories). However the diagramm could be draw only if there is less than 5 ensembles (option: **--plot**). The user can also define a list of juncyion of interest in the format *chrXX_start_end_strand*, *e.g.* the known alternative splicing of *BRCA1/2* in the file [listCoordAltEvent.txt](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/refData/listCoordAltEvent.txt, "tittle") (option: **-L**).
 
 ```bash
 Rscript getVennDiagram.r -I /path/to/pooled matrix \
@@ -79,7 +92,7 @@ Rscript getVennDiagram.r -I /path/to/pooled matrix \
 
 3 **PCA**
 
-Here we provide the script *getACP.r* to generate the PCA analysis from the common matrix count. The user can also define a list of juncyion of interest in the format *chrXX_start_end_strand*, *e.g.* the known alternative splicing of *BRCA1/2* in the file *listCoordAltEvent.txt* (option: **-L**).
+Here we provide the script [getACP.r](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/scripts/getACP.r, "tittle") to generate the PCA analysis from the common matrix count. The user can also define a list of juncyion of interest in the format *chrXX_start_end_strand*, *e.g.* the known alternative splicing of *BRCA1/2* in the file [listCoordAltEvent.txt](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/refData/listCoordAltEvent.txt, "tittle") (option: **-L**).
 
 ```bash
 Rscript getACP.r -I /path/to/pooled matrix \
@@ -90,7 +103,7 @@ Rscript getACP.r -I /path/to/pooled matrix \
 
 ## Comparison of IVS10-2 samples
 
-For the moment, we don't provide a script to merge speciquelly the IVS10-2 samples, due to the heterogenous data. However we propose the script *analyzeIVS10-2data.r* to get the illustration of the expression correlation and we made the distinction between NMD inhibitor treated samples and untreated samples.
+For the moment, we don't provide a script to merge speciquelly the IVS10-2 samples, due to the heterogenous data. However we propose the script [analyzeIVS10-2data.r](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/scripts/analyzeIVS10-2data.r, "tittle") to get the illustration of the expression correlation and we made the distinction between NMD inhibitor treated samples and untreated samples.
 
 ```bash
 Rscript analyzeIVS10-2data.r \
