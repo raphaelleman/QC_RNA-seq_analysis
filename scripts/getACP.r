@@ -51,5 +51,5 @@ pdf(file=outputDir)
 plot(PC2~PC1,pch=2:ncol(dataACP),col=rainbow(ncol(dataACP)-1),xlab="PC1",ylab="PC2")
 
 # If the legend overlaps the drawed points you can adapt its positions by x and y value
-legend(x=min(PC1),y = (min(PC2)+0.4*abs(min(PC2)-max(PC2))),legend=colnames(dataACP)[2:ncol(dataACP)],pch=2:ncol(dataACP),col=rainbow(ncol(dataACP)-1))
+legend(x=min(PC1),y = (min(PC2)+1*abs(min(PC2)-max(PC2))),legend=colnames(dataACP)[2:ncol(dataACP)],pch=2:ncol(dataACP),col=rainbow(ncol(dataACP)-1))
 dev.off()

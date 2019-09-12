@@ -37,6 +37,7 @@ while (i <= length(args)){
 #here  the decimal separator is an ","
 
 dataUntreated = read.table(inputFile1,header=TRUE, sep="\t",dec=",")
+dataUntreated = dataUntreated[,-grep("Logan",colnames(dataUntreated))]
 dataTreated = read.table(inputFile2,header=TRUE, sep="\t",dec=",")
 
 panel.hist = function(x,...)
@@ -52,16 +53,20 @@ panel.cor = function(x,y,digits=2, prefix="",cex.cor,...)
 {
 usr = par("usr"); on.exit(par(usr))
 par(usr = c(0,1,0,1))
-r = abs(cor(x[!is.na(x)&!is.na(y)],y[!is.na(x)&!is.na(y)],method = "pearson"))
+r = abs(cor(x[!is.na(x)&!is.na(y)],y[!is.na(x)&!is.na(y)],method = "spearman"))
 txt = format(c(r,0.123456789),digits=digits)[1]
 txt=paste(prefix, txt, sep="")
 if(missing(cex.cor)) cex.cor = 0.8/strwidth(txt)
 text(0.5,0.5,txt,cex=cex.cor * r)
 }
 setwd(outputDir)
-dataCorrUntrPercent = dataUntreated[dataUntreated$nbOccur>=4,which(substr(colnames(dataUntreated),1,2)=="P_")]
+dataCorrUntrPercent = dataUntreated[dataUntreated$nbOccur>=2,which(substr(colnames(dataUntreated),1,2)=="P_")]
+colnames(dataCorrUntrPercent)=sub("P_IVS10.2","",colnames(dataCorrUntrPercent))
+colnames(dataCorrUntrPercent)=sub("Untreated","",colnames(dataCorrUntrPercent))
 print(dim(dataCorrUntrPercent))
-dataCorrTrPercent = dataTreated[dataTreated$nbOccur>=4,which(substr(colnames(dataTreated),1,2)=="P_")]
+dataCorrTrPercent = dataTreated[dataTreated$nbOccur>=2,which(substr(colnames(dataTreated),1,2)=="P_")]
+colnames(dataCorrTrPercent)=sub("P_IVS10.2","",colnames(dataCorrTrPercent))
+colnames(dataCorrTrPercent)=sub("Treated","",colnames(dataCorrTrPercent))
 pdf("CorrExprUntreatedIVS10-2.pdf")
 pairs(dataCorrUntrPercent,lower.panel=panel.smooth, diag.panel=panel.hist,upper.panel=panel.cor)
 dev.off()
@@ -69,8 +74,12 @@ pdf("CorrExprTreatedIVS10-2.pdf")
 pairs(dataCorrTrPercent,lower.panel=panel.smooth, diag.panel=panel.hist,upper.panel=panel.cor)
 dev.off()
 
-dataCorrUntrRead = dataUntreated[dataUntreated$nbOccur>=4,which(substr(colnames(dataUntreated),1,2)=="IV")]
-dataCorrTrRead = dataTreated[dataTreated$nbOccur>=4,which(substr(colnames(dataTreated),1,2)=="IV")]
+dataCorrUntrRead = dataUntreated[dataUntreated$nbOccur>=2,which(substr(colnames(dataUntreated),1,2)=="IV")]
+colnames(dataCorrUntrRead)=sub("IVS10.2","",colnames(dataCorrUntrRead))
+colnames(dataCorrUntrRead)=sub("Untreated","",colnames(dataCorrUntrRead))
+dataCorrTrRead = dataTreated[dataTreated$nbOccur>=2,which(substr(colnames(dataTreated),1,2)=="IV")]
+colnames(dataCorrTrRead)=sub("IVS10.2","",colnames(dataCorrTrRead))
+colnames(dataCorrTrRead)=sub("Treated","",colnames(dataCorrTrRead))
 logRead <- function(x){x[x>0&!is.na(x)]=log(x[x>0&!is.na(x)]);return(x)}
 
 dataCorrUntrRead = apply(dataCorrUntrRead,2,logRead)
