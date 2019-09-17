@@ -22,17 +22,17 @@ git clone https://github.com/raphaelleman/QC_RNA-seq_analysis.git
 
 The participating laboratories are :
 
-| Acronymes | Laboratories, Country | RNA-seq approach |
-|:------------:|:--------:|:------------:|
-| Logan | Department of Pathology, University of Otago, Christchurch, New Zealand | PCR enrichment RNA-seq |
-| Petra | Laboratoř onkogenetiky, Ústav bio chemie a experimentální onkologie, 1. LF UK v Praze | targeted RNA-seq |
-| Kvist | Division of Oncology and Pathology, Department of Clinical Sciences, Lund University, Lund, Sweden | targeted RNA-seq |
-| Douglas | Human Development and Health Academic Unit, Faculty of Medicine, University of Southampton, Southampton General Hospital, Southampton, UK. | whole transcriptome RNA-seq |
-| Vang |     Department of Clinical Genetics, Odense University Hospital, Odense, Denmark. | whole transcriptome RNA-seq |
-| Rien | Department of Clinical Genetics, Maastricht University Medical Centre, Maastricht, The Netherlands. | targeted RNAseq |
-| Rachid | Ambry genetics, USA | Clone-seq |
-| Caen | Centre François Baclesse, France | targeted RNA-seq |
-| Inge | ClinicalCancerResearch Center,AalborgUniversityHospital,Aalborg,Denmark | whole transcriptome RNA-seq |
+| Acronymes | Study site | Laboratories, Country | RNA-seq approach |
+|:------------:|:--------:|:--------:|:------------:|
+| Logan | 1 | Department of Pathology, University of Otago, Christchurch, New Zealand | PCR enrichment RNA-seq |
+| Petra | 2 | Laboratoř onkogenetiky, Ústav bio chemie a experimentální onkologie, 1. LF UK v Praze | targeted RNA-seq |
+| Rien | 3 | Department of Clinical Genetics, Maastricht University Medical Centre, Maastricht, The Netherlands. | targeted RNAseq |
+| Rachid | 4 | Ambry genetics, USA | Clone-seq |
+| Caen | 5 | Centre François Baclesse, France | targeted RNA-seq |
+| Vang | 6 | Department of Clinical Genetics, Odense University Hospital, Odense, Denmark. | whole transcriptome RNA-seq |
+| Kvist | 7 | Division of Oncology and Pathology, Department of Clinical Sciences, Lund University, Lund, Sweden | targeted RNA-seq |
+| Douglas | 8 | Human Development and Health Academic Unit, Faculty of Medicine, University of Southampton, Southampton General Hospital, Southampton, UK. | whole transcriptome RNA-seq |
+| Inge | 9 | ClinicalCancerResearch Center,AalborgUniversityHospital,Aalborg,Denmark | whole transcriptome RNA-seq |
 
 The correspondance between sample names and its descriptions is available at [list_samples.txt](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/list_samples.txt, "tittle")
 
