@@ -150,8 +150,7 @@ cd ${bam_path}
 mkdir ${out_path}/htseq
 HtseqPath="${out_path}/htseq"
 
-for file in *.bam; do echo "treatment of $file..."; ${samtools} sort -n $file -o ${file%.bam}_sortN.bam; done
-for file in *_sortN.bam; do echo "treatment of $file..."; ${samtools} view -h $file > ${HtseqPath}/${file%_sortN.bam}.sam; done
+for file in *.bam; do echo "treatment of $file..."; ${samtools} sort -@ 16 -n -O SAM -o ${HtseqPath}/${file%.bam}.sam $file; done
 
 echo '### HTseq count analysis'
 

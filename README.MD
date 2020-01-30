@@ -29,10 +29,11 @@ The participating laboratories are :
 | Rien | 3 | Department of Clinical Genetics, Maastricht University Medical Centre, Maastricht, The Netherlands. | targeted RNAseq |
 | Rachid | 4 | Ambry genetics, USA | Clone-seq |
 | Caen | 5 | Centre François Baclesse, France | targeted RNA-seq |
-| Vang | 6 | Department of Clinical Genetics, Odense University Hospital, Odense, Denmark. | whole transcriptome RNA-seq |
+| Mthomassen | 6 | Department of Clinical Genetics, Odense University Hospital, Odense, Denmark. | whole transcriptome RNA-seq |
 | Kvist | 7 | Division of Oncology and Pathology, Department of Clinical Sciences, Lund University, Lund, Sweden | targeted RNA-seq |
 | Douglas | 8 | Human Development and Health Academic Unit, Faculty of Medicine, University of Southampton, Southampton General Hospital, Southampton, UK. | whole transcriptome RNA-seq |
 | Inge | 9 | ClinicalCancerResearch Center,AalborgUniversityHospital,Aalborg,Denmark | whole transcriptome RNA-seq |
+| Vohansen | 10 | Center for Genomic Medicine, Rigshospitalet, Copenhagen University Hospital, Copenhagen, Denmark | whole transcriptome RNA-seq |
 
 The correspondance between sample names and its descriptions is available at [list_samples.txt](https://github.com/raphaelleman/QC_RNA-seq_analysis/blob/master/list_samples.txt, "tittle")
 
