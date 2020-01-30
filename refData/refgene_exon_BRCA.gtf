@@ -20,7 +20,7 @@ chr17	dexseq_prepare_annotation.py	exonic_part	41223256	41226347	.	-	.	transcrip
 chr17	dexseq_prepare_annotation.py	exonic_part	41226348	41226538	.	-	.	transcripts "NM_007298+NM_007299+NM_007300+NM_007297+NR_027676+NM_007294"; exonic_part_number "Exon_015"; gene_id "BRCA1"
 chr17	dexseq_prepare_annotation.py	exonic_part	41226539	41228504	.	-	.	transcripts "NM_007298+NM_007299+NM_007300+NM_007297+NR_027676+NM_007294"; exonic_part_number "Intron_014"; gene_id "BRCA1"
 chr17	dexseq_prepare_annotation.py	exonic_part	41228505	41228631	.	-	.	transcripts "NM_007297+NR_027676+NM_007294"; exonic_part_number "Exon_014"; gene_id "BRCA1"
-cchr17	dexseq_prepare_annotation.py	exonic_part	41228632	41234420	.	-	.	transcripts "NM_007297+NR_027676+NM_007294"; exonic_part_number "Intron_013"; gene_id "BRCA1"
+chr17	dexseq_prepare_annotation.py	exonic_part	41228632	41234420	.	-	.	transcripts "NM_007297+NR_027676+NM_007294"; exonic_part_number "Intron_013"; gene_id "BRCA1"
 chr17	dexseq_prepare_annotation.py	exonic_part	41234421	41234592	.	-	.	transcripts "NM_007298+NM_007299+NM_007300+NM_007297+NR_027676+NM_007294"; exonic_part_number "Exon_013"; gene_id "BRCA1"
 chr17	dexseq_prepare_annotation.py	exonic_part	41234593	41242960	.	-	.	transcripts "NM_007298+NM_007299+NM_007300+NM_007297+NR_027676+NM_007294"; exonic_part_number "Intron_012"; gene_id "BRCA1"
 chr17	dexseq_prepare_annotation.py	exonic_part	41242961	41243049	.	-	.	transcripts "NM_007298+NM_007299+NM_007300+NM_007297+NR_027676+NM_007294"; exonic_part_number "Exon_012"; gene_id "BRCA1"
