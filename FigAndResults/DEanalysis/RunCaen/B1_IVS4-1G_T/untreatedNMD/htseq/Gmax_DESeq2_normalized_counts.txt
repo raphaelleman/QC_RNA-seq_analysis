@@ -1,0 +1,3 @@
+"Cont_B1_unt_R9_03.count"	"Cont_B1_unt_R9_07.count"	"Cont_B1_unt_R9_09.count"	"Cont_B1_unt_R9_15.count"	"Cont_unt_R9_01.count"	"Muta_unt_R9_11.count"
+"BRCA1"	171180	206102	77910	214538	364558	197099
+"BRCA2"	292485	175228	164624	322233	414577	405551

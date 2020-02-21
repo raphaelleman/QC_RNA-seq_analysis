@@ -1,0 +1,3 @@
+"Cont_B2_unt_12.count"	"Cont_B2_unt_14.count"	"Cont_B2_unt_16.count"	"Cont_B2_unt_17.count"	"Cont_B2_unt_20.count"	"Cont_unt_1.count"	"Cont_unt_10.count"	"Cont_unt_2.count"	"Cont_unt_3.count"	"Cont_unt_4.count"	"Cont_unt_5.count"	"Cont_unt_6.count"	"Cont_unt_7.count"	"Cont_unt_8.count"	"Cont_unt_9.count"	"Muta_unt_18.count"
+"BRCA1"	1510	1885	2194	1520	1415	2344	2244	1846	1234	1912	1813	1041	1733	5496	1723	1536
+"BRCA2"	1124	1357	1676	1046	929	1421	1128	1079	657	1354	1094	561	1223	3599	1064	712

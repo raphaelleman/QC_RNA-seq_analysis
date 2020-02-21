@@ -1,0 +1,3 @@
+"Cont_B2_trea_R9_06.count"	"Cont_B2_trea_R9_12.count"	"Cont_B2_trea_R9_14.count"	"Cont_B2_trea_R9_18.count"	"Cont_B2_trea_R9_20.count"	"Cont_trea_R9_02.count"	"Muta_trea_R9_04.count"
+"BRCA1"	332252	292270	249878	270177	423378	368099	338029
+"BRCA2"	668476	1034661	883933	978153	805939	1424115	833916
