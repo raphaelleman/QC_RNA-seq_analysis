@@ -29,7 +29,7 @@ while (i <= length(args)){
 
 data =read.table(inputFile,sep="\t",header=TRUE)
 
-pdf(outputDir, width=10, height=7)
+pdf(outputDir, width=12, height=7)
 boxplot(BRCA1~run,data=data[data$BRCA1!=0,],
     log="y",ylog=T,
     ylab = "Read count (log scale)",
