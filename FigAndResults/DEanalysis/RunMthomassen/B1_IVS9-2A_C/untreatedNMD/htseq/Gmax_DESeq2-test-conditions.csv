@@ -1,0 +1,7 @@
+"","type","description"
+"baseMean","intermediate","mean of normalized counts for all samples"
+"log2FoldChange","results","log2 fold change (MLE): condition Muta vs Cont"
+"lfcSE","results","standard error: condition Muta vs Cont"
+"stat","results","Wald statistic: condition Muta vs Cont"
+"pvalue","results","Wald test p-value: condition Muta vs Cont"
+"padj","results","BH adjusted p-values"

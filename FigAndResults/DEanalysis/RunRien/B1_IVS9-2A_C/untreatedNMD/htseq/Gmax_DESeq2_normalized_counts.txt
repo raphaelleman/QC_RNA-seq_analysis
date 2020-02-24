@@ -1,0 +1,3 @@
+"Cont_B1_untr_wt-RNA11-0047-1_S17.count"	"Cont_B1_untr_wt-RNA11-0051-1_S19.count"	"Cont_B1_untr_wt-RNA11-0053-1_S20.count"	"Cont_B1_untr_wt-RNA11-0055-1_S21.count"	"Cont_untr_wt-RNA11-0067-1_S25.count"	"Cont_untr_wt-RNA11-0069-1_S26.count"	"Cont_untr_wt-RNA11-0071-1_S27.count"	"Cont_untr_wt-RNA11-0073-1_S28.count"	"Cont_untr_wt-RNA11-0075-1_S29.count"	"Cont_untr_wt-RNA11-0077-1_S30.count"	"Muta_untr_wt-RNA11-0049-1_S18.count"
+"BRCA1"	24435	45867	72423	54322	62291	44864	54860	33854	59888	39234	43037
+"BRCA2"	58650	80381	121518	83867	86709	92880	83989	64050	93325	97765	77904

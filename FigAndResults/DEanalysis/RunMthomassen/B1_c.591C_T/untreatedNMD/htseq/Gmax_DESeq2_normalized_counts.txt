@@ -1,0 +1,3 @@
+"Cont_B1_untr_smp2_S2.count"	"Cont_B1_untr_smp4_S4.count"	"Cont_B1_untr_smp5_S5.count"	"Cont_B1_untr_smp6_S6.count"	"Cont_untr_smp10_S10.count"	"Cont_untr_smp11_S11.count"	"Cont_untr_smp12_S12.count"	"Cont_untr_smp13_S2.count"	"Cont_untr_smp14_S3.count"	"Cont_untr_smp15_S4.count"	"Cont_untr_smp16_S5.count"	"Cont_untr_smp17_S6.count"	"Cont_untr_smp18_S7.count"	"Cont_untr_smp19_S8.count"	"Cont_untr_smp20_S9.count"	"Muta_untr_smp7_S7.count"
+"BRCA1"	2035	2540	1832	2425	2007	3112	3001	2431	4041	1497	2524	4521	3590	2673	3112	1621
+"BRCA2"	3556	2348	3452	2763	2722	3402	2768	3326	4269	2190	3697	7385	5136	4371	5881	2111

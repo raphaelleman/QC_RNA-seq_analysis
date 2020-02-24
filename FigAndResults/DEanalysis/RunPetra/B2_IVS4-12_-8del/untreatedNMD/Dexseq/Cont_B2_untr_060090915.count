@@ -1,0 +1,103 @@
+"BRCA1":Exon_001	112
+"BRCA1":Exon_002	525
+"BRCA1":Exon_003	606
+"BRCA1":Exon_005	690
+"BRCA1":Exon_006	872
+"BRCA1":Exon_007	1025
+"BRCA1":Exon_008	814
+"BRCA1":Exon_009	483
+"BRCA1":Exon_010	576
+"BRCA1":Exon_0111	7971
+"BRCA1":Exon_012	532
+"BRCA1":Exon_013	1021
+"BRCA1":Exon_014	1015
+"BRCA1":Exon_015	1325
+"BRCA1":Exon_016	1501
+"BRCA1":Exon_017	823
+"BRCA1":Exon_018	921
+"BRCA1":Exon_019	610
+"BRCA1":Exon_020	827
+"BRCA1":Exon_021	510
+"BRCA1":Exon_022	335
+"BRCA1":Exon_023	248
+"BRCA1":Exon_024	266
+"BRCA1":Intron_001	99
+"BRCA1":Intron_002	70
+"BRCA1":Intron_003	24
+"BRCA1":Intron_005	55
+"BRCA1":Intron_006	36
+"BRCA1":Intron_007	36
+"BRCA1":Intron_008	89
+"BRCA1":Intron_009	86
+"BRCA1":Intron_010	179
+"BRCA1":Intron_011	68
+"BRCA1":Intron_012	22
+"BRCA1":Intron_013	0
+"BRCA1":Intron_014	100
+"BRCA1":Intron_015	32
+"BRCA1":Intron_016	71
+"BRCA1":Intron_017	88
+"BRCA1":Intron_018	96
+"BRCA1":Intron_019	75
+"BRCA1":Intron_020	81
+"BRCA1":Intron_021	71
+"BRCA1":Intron_022	62
+"BRCA1":Intron_023	63
+"BRCA2":Exon_001	282
+"BRCA2":Exon_002	680
+"BRCA2":Exon_003	1112
+"BRCA2":Exon_004	571
+"BRCA2":Exon_005	409
+"BRCA2":Exon_006	391
+"BRCA2":Exon_007	499
+"BRCA2":Exon_008	362
+"BRCA2":Exon_009	471
+"BRCA2":Exon_010	3065
+"BRCA2":Exon_011	11360
+"BRCA2":Exon_012	504
+"BRCA2":Exon_013	553
+"BRCA2":Exon_014	1426
+"BRCA2":Exon_015	726
+"BRCA2":Exon_016	657
+"BRCA2":Exon_017	607
+"BRCA2":Exon_018	1050
+"BRCA2":Exon_019	627
+"BRCA2":Exon_020	765
+"BRCA2":Exon_021	634
+"BRCA2":Exon_022	758
+"BRCA2":Exon_023	752
+"BRCA2":Exon_024	689
+"BRCA2":Exon_025	831
+"BRCA2":Exon_026	603
+"BRCA2":Exon_027	2961
+"BRCA2":Intron_001	71
+"BRCA2":Intron_002	39
+"BRCA2":Intron_003	86
+"BRCA2":Intron_004	43
+"BRCA2":Intron_005	26
+"BRCA2":Intron_006	70
+"BRCA2":Intron_007	39
+"BRCA2":Intron_008	37
+"BRCA2":Intron_009	10
+"BRCA2":Intron_010	61
+"BRCA2":Intron_011	67
+"BRCA2":Intron_012	100
+"BRCA2":Intron_013	22
+"BRCA2":Intron_014	21
+"BRCA2":Intron_015	26
+"BRCA2":Intron_016	39
+"BRCA2":Intron_017	15
+"BRCA2":Intron_018	32
+"BRCA2":Intron_019	53
+"BRCA2":Intron_020	75
+"BRCA2":Intron_021	48
+"BRCA2":Intron_022	26
+"BRCA2":Intron_023	69
+"BRCA2":Intron_024	40
+"BRCA2":Intron_025	39
+"BRCA2":Intron_026	17
+_ambiguous	0
+_ambiguous_readpair_position	0
+_empty	2208356
+_lowaqual	0
+_notaligned	0

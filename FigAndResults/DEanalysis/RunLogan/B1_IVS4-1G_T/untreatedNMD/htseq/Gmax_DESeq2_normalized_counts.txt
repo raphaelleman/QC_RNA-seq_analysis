@@ -1,0 +1,3 @@
+"Cont_B1_untr_22-03-006-0289_U.count"	"Cont_B1_untr_26-06-009-0425_U.count"	"Cont_B1_untr_30-99-003-3193_U.count"	"Cont_B1_untr_36-01-008-0483_U.count"	"Cont_untr_02-07-111-0075_U.count"	"Cont_untr_04-07-111-0082_U.count"	"Cont_untr_06-07-111-0085_U.count"	"Cont_untr_08-07-111-0097_U.count"	"Cont_untr_10-07-111-0134_U.count"	"Cont_untr_12-08-111-0021_U.count"	"Cont_untr_14-08-111-0059_U.count"	"Cont_untr_16-08-111-0064_U.count"	"Cont_untr_18-08-111-0065_U.count"	"Cont_untr_20-08-111-0066_U.count"	"Muta_untr_34-99-006-1923_U.count"
+"BRCA1"	75035	50188	44439	121239	73081	35596	67812	111071	58331	73102	85378	21721	245565	73482	14882
+"BRCA2"	72435	48562	30856	97106	60289	32023	47524	76955	45985	68103	71213	16706	230846	48546	16185
