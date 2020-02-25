@@ -124,4 +124,3 @@
 /home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunVohansen/B2_IVS4-12_-8del/untreatedNMD/Dexseq
 /home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunVohansen/B2_IVS20+1G_A/untreatedNMD/Dexseq
 /home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunVohansen/B2_IVS25+3A_T/untreatedNMD/Dexseq
-
