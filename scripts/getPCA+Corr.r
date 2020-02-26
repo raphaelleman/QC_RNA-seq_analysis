@@ -45,8 +45,13 @@ if(!is.null(listDir)){
     print(dim(dataACP))
 }
 
+##################
+# PCA analysis
+#################
+
 matrixACP = as.matrix(dataACP[,2:ncol(dataACP)])
 matrixACP = t(apply(matrixACP,1,function(x){x[is.na(x)]=0;return(x)}))
+print(summary(matrixACP))
 
 res_pca=dudi.pca(as.matrix(matrixACP),scannf=F,nf=6,center=FALSE)
 PC1 = res_pca$co[,1]
@@ -68,4 +73,34 @@ plot(PC2~PC1,pch=2:ncol(dataACP),col=rainbow(ncol(dataACP)-1),xlab="PC1",ylab="P
 
 # If the legend overlaps the drawed points you can adapt its positions by x and y value
 legend(x=xPos,y = yPos,legend=colnames(dataACP)[2:ncol(dataACP)],pch=2:ncol(dataACP),col=rainbow(ncol(dataACP)-1))
+dev.off()
+
+##################
+# Correlation analysis
+#################
+
+panel.hist = function(x,...)
+{
+usr =par("usr");on.exit(par(usr))
+par(usr=c(usr[1:2],0,1.5))
+h = hist(x,plot=FALSE)
+breaks = h$breaks; nB = length(breaks)
+y=h$counts; y = y/max(y)
+rect(breaks[-nB],0, breaks[-1],y,col="cyan",...)
+}
+panel.cor = function(x,y,digits=2, prefix="",cex.cor,...)
+{
+usr = par("usr"); on.exit(par(usr))
+par(usr = c(0,1,0,1))
+r = abs(cor(x[!is.na(x)&!is.na(y)],y[!is.na(x)&!is.na(y)],method = "spearman"))
+txt = format(c(r,0.123456789),digits=digits)[1]
+txt=paste(prefix, txt, sep="")
+if(missing(cex.cor)) cex.cor = 0.8/strwidth(txt)
+text(0.5,0.5,txt,cex=cex.cor * r)
+}
+dataCorr = dataACP[,2:ncol(dataACP)]
+print(summary(dataCorr))
+
+pdf(file=gsub(".pdf","2.pdf",outputDir), width = 15, height = 15)
+pairs(dataCorr,lower.panel=panel.smooth, diag.panel=panel.hist,upper.panel=panel.cor)
 dev.off()
