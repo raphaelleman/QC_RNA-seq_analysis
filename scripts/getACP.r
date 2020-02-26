@@ -4,12 +4,14 @@ library(ade4)
 
 argsFull <- commandArgs()
 listDir=NULL
+legendPos=0
 
 helpMessage=paste("Usage: getACP.r\n
     [Mandatory] \n
         -I, --input /path/to/pooled matrix\n\t\tRead count matrix (.txt)
-        -L, --list /path/to/list of junction file\n\t\tList of junction file (.txt)
         -O, --output /path/to/output file.pdf/\n\t\tFile to save the results\n
+        -L, --list /path/to/list of junction file\n\t\tList of junction file (.txt)
+        --legend Integer\n\t\tPosition of legend [Default=0], 0: lower left, 1: upper left, 2: upper right, 3: lower right
     h, --help\n\t\tprint this help message and exit\n
    You could : Rscript getACP.r -I path/to/matrices -O ./outputTest/")
 
@@ -27,6 +29,8 @@ while (i <= length(args)){
         outputDir=args[i+1];i = i+2
     }else if(args[i]=="-L"|args[i]=="--list"){
         listDir=normalizePath(args[i+1]);i = i+2
+    }else if(args[i]=="--legend"){
+        legendPos=as.numeric(args[i+1]);i = i+2
     }else if(args[i]=="-h"|args[i]=="--help"){
         message(helpMessage);q(save="no")
     }else{
@@ -47,9 +51,20 @@ res_pca=dudi.pca(as.matrix(matrixACP),scannf=F,nf=6,center=FALSE)
 PC1 = res_pca$co[,1]
 PC2 = res_pca$co[,2]
 print(res_pca$co)
+
+if(legendPos==0){
+    xPos=min(PC1); yPos=min(PC2)+abs((max(PC2)-min(PC2))/2)
+}else if(legendPos==1){
+    xPos=min(PC1); yPos=max(PC2)
+}else if(legendPos==2){
+    xPos=min(PC1)+abs((max(PC1)-min(PC1))/2); yPos=max(PC2)
+}else if(legendPos==3){
+    xPos=min(PC1)+abs((max(PC1)-min(PC1))/2); yPos=min(PC2)+abs((max(PC2)-min(PC2))/2)
+}
+
 pdf(file=outputDir)
 plot(PC2~PC1,pch=2:ncol(dataACP),col=rainbow(ncol(dataACP)-1),xlab="PC1",ylab="PC2")
 
 # If the legend overlaps the drawed points you can adapt its positions by x and y value
-legend(x=min(PC1),y = (min(PC2)+1*abs(min(PC2)-max(PC2))),legend=colnames(dataACP)[2:ncol(dataACP)],pch=2:ncol(dataACP),col=rainbow(ncol(dataACP)-1))
+legend(x=xPos,y = yPos,legend=colnames(dataACP)[2:ncol(dataACP)],pch=2:ncol(dataACP),col=rainbow(ncol(dataACP)-1))
 dev.off()
