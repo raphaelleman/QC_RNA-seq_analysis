@@ -1,0 +1,31 @@
+date of analysis	mer. févr. 26 2020 14:43:05 ; Time to analysis: 0.215810441970825 min
+name of input file	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunMthomassen/RunMthomassen.txt
+run id	RunMthomassen
+Nb of samples	22
+sample	Logan_sample_treated_S3.count
+sample	Logan_sample_untreated_S4.count
+sample	smp10_S10.count
+sample	smp11_S11.count
+sample	smp12_S12.count
+sample	smp13_S2.count
+sample	smp14_S3.count
+sample	smp15_S4.count
+sample	smp16_S5.count
+sample	smp17_S6.count
+sample	smp18_S7.count
+sample	smp19_S8.count
+sample	smp1_S1.count
+sample	smp20_S9.count
+sample	smp2_S2.count
+sample	smp3_S3.count
+sample	smp4_S4.count
+sample	smp5_S5.count
+sample	smp6_S6.count
+sample	smp7_S7.count
+sample	smp8_S8.count
+sample	smp9_S9.count
+path to output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunMthomassen
+name of output file	RunMthomassen_outputSpliceLauncher.xlsx
+path to graphics output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunMthomassen/RunMthomassen_results/RunMthomassen_figures_output/
+Junctions out of strand	14
+average depth	8.3979863784424

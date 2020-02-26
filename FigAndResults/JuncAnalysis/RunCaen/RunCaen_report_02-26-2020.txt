@@ -1,0 +1,29 @@
+date of analysis	mer. févr. 26 2020 14:11:31 ; Time to analysis: 0.297278086344401 min
+name of input file	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunCaen/RunCaen.txt
+run id	RunCaen
+Nb of samples	20
+sample	R9_01.txt
+sample	R9_02.txt
+sample	R9_03.txt
+sample	R9_04.txt
+sample	R9_05.txt
+sample	R9_06.txt
+sample	R9_07.txt
+sample	R9_08.txt
+sample	R9_09.txt
+sample	R9_10.txt
+sample	R9_11.txt
+sample	R9_12.txt
+sample	R9_13.txt
+sample	R9_14.txt
+sample	R9_15.txt
+sample	R9_16.txt
+sample	R9_17.txt
+sample	R9_18.txt
+sample	R9_19.txt
+sample	R9_20.txt
+path to output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunCaen
+name of output file	RunCaen_outputSpliceLauncher.xlsx
+path to graphics output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunCaen/RunCaen_results/RunCaen_figures_output/
+Junctions out of strand	410
+average depth	445.499617834395

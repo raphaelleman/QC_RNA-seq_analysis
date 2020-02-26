@@ -1,0 +1,33 @@
+date of analysis	mer. févr. 26 2020 14:11:49 ; Time to analysis: 0.282840895652771 min
+name of input file	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunKvist/RunKvist.txt
+run id	RunKvist
+Nb of samples	24
+sample	LU_01.008.0483_LCL_mRNA_L1_S1..txt
+sample	LU_01.008.0483_LCL_totRNA_L1_S1..txt
+sample	LU_03.006.0289_LCL_mRNA_L1_S1..txt
+sample	LU_03.006.0289_LCL_totRNA_L1_S1..txt
+sample	LU_05.002.0176_LCL_mRNA_L1_S1..txt
+sample	LU_05.002.0176_LCL_totRNA_L1_S1..txt
+sample	LU_06.009.0425_LCL_mRNA_L1_S1..txt
+sample	LU_06.009.0425_LCL_totRNA_L1_S1..txt
+sample	LU_06.009.0916_RNA_LW_treat_mRNA_L1_S1..txt
+sample	LU_06.009.0916_RNA_LW_treat_totRNA_L1_S1..txt
+sample	LU_06.009.0916_RNA_LW_untr_mRNA_L1_S1..txt
+sample	LU_07.111.0075_LCL_mRNA_L1_S1..txt
+sample	LU_07.111.0075_LCL_totRNA_L1_S1..txt
+sample	LU_07.111.0085_RNA_MT_mRNA_L1_S1..txt
+sample	LU_07.111.0085_RNA_MT_totRNA_L1_S1..txt
+sample	LU_07.111.0097_RNA_MT_mRNA_L1_S1..txt
+sample	LU_07.111.0097_RNA_MT_totRNA_L1_S1..txt
+sample	LU_08.111.0021_LCL_mRNA_L1_S1..txt
+sample	LU_08.111.0021_LCL_totRNA_L1_S1..txt
+sample	LU_99.003.3193_RNA_MT_mRNA_L1_S1..txt
+sample	LU_99.003.3193_RNA_MT_totRNA_L1_S1..txt
+sample	LU_99.005.0355_LCL_mRNA_L1_S1..txt
+sample	LU_99.005.0355_LCL_totRNA_L1_S1..txt
+sample	LU_99.006.1923_LCL_totRNA_L1_S1..txt
+path to output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunKvist
+name of output file	RunKvist_outputSpliceLauncher.xlsx
+path to graphics output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunKvist/RunKvist_results/RunKvist_figures_output/
+Junctions out of strand	58
+average depth	399.957366666667

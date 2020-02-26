@@ -1,0 +1,28 @@
+date of analysis	mer. févr. 26 2020 14:12:51 ; Time to analysis: 0.183413688341777 min
+name of input file	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunVohansen/RunVohansen.txt
+run id	RunVohansen
+Nb of samples	19
+sample	Qbirk.00001.Tumor.RNA_A00559_0074.count
+sample	Qbirk.00002.Tumor.RNA_A00559_0074.count
+sample	Qbirk.00003.Tumor.RNA_A00559_0074.count
+sample	Qbirk.00004.Tumor.RNA_A00559_0074.count
+sample	Qbirk.00005.Tumor.RNA_A00559_0074.count
+sample	Qbirk00006.00006.Tumor.RNA_A00559_0074.count
+sample	Qbirk00007.00007.Tumor.RNA_A00559_0074.count
+sample	Qbirk00008.00008.Tumor.RNA_A00559_0074.count
+sample	Qbirk00009.00009.Tumor.RNA_A00559_0074.count
+sample	Qbirk00010.00010.Tumor.RNA_A00559_0074.count
+sample	Qbirk00011.00011.Tumor.RNA_A00559_0075.count
+sample	Qbirk00012.00012.Tumor.RNA_A00559_0075.count
+sample	Qbirk00013.00013.Tumor.RNA_A00559_0075.count
+sample	Qbirk00014.00014.Tumor.RNA_A00559_0075.count
+sample	Qbirk00015.00015.Tumor.RNA_A00559_0075.count
+sample	Qbirk00016.00016.Tumor.RNA_A00559_0075.count
+sample	Qbirk00017.00017.Tumor.RNA_A00559_0075.count
+sample	Qbirk00018.00018.Tumor.RNA_A00559_0075.count
+sample	Qbirk00019.00019.Tumor.RNA_A00559_0075.count
+path to output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunVohansen
+name of output file	RunVohansen_outputSpliceLauncher.xlsx
+path to graphics output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunVohansen/RunVohansen_results/RunVohansen_figures_output/
+Junctions out of strand	8
+average depth	12.6285606489342

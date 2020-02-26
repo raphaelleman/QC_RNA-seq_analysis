@@ -1,0 +1,48 @@
+date of analysis	mer. févr. 26 2020 14:12:37 ; Time to analysis: 0.221740543842316 min
+name of input file	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunLogan/RunLogan.txt
+run id	RunLogan
+Nb of samples	39
+sample	A7BDE.785.01.07.111.0075_T_Sort_juncs.txt
+sample	A7BDE.785.02.07.111.0075_U_Sort_juncs.txt
+sample	A7BDE.785.03.07.111.0082_T_Sort_juncs.txt
+sample	A7BDE.785.04.07.111.0082_U_Sort_juncs.txt
+sample	A7BDE.785.05.07.111.0085_T_Sort_juncs.txt
+sample	A7BDE.785.06.07.111.0085_U_Sort_juncs.txt
+sample	A7BDE.785.07.07.111.0097_T_Sort_juncs.txt
+sample	A7BDE.785.08.07.111.0097_U_Sort_juncs.txt
+sample	A7BDE.785.09.07.111.0134_T_Sort_juncs.txt
+sample	A7BDE.785.10.07.111.0134_U_Sort_juncs.txt
+sample	A7BDE.785.11.08.111.0021_T_Sort_juncs.txt
+sample	A7BDE.785.12.08.111.0021_U_Sort_juncs.txt
+sample	A7BDE.785.13.08.111.0059_T_Sort_juncs.txt
+sample	A7BDE.785.14.08.111.0059_U_Sort_juncs.txt
+sample	A7BDE.785.15.08.111.0064_T_Sort_juncs.txt
+sample	A7BDE.785.16.08.111.0064_U_Sort_juncs.txt
+sample	A7BDE.785.17.08.111.0065_T_Sort_juncs.txt
+sample	A7BDE.785.18.08.111.0065_U_Sort_juncs.txt
+sample	A7BDE.785.19.08.111.0066_T_Sort_juncs.txt
+sample	A7BDE.785.20.08.111.0066_U_Sort_juncs.txt
+sample	A7BDE.785.21.03.006.0289_T_Sort_juncs.txt
+sample	A7BDE.785.22.03.006.0289_U_Sort_juncs.txt
+sample	A7BDE.785.23.05.002.0176_T_Sort_juncs.txt
+sample	A7BDE.785.24.05.002.0176_U_Sort_juncs.txt
+sample	A7BDE.785.25.06.009.0425_T_Sort_juncs.txt
+sample	A7BDE.785.26.06.009.0425_U_Sort_juncs.txt
+sample	A7BDE.785.27.06.009.0915_T_Sort_juncs.txt
+sample	A7BDE.785.28.06.009.0915_U_Sort_juncs.txt
+sample	A7BDE.785.29.99.003.3193_T_Sort_juncs.txt
+sample	A7BDE.785.30.99.003.3193_U_Sort_juncs.txt
+sample	A7BDE.785.31.99.005.0355_T_Sort_juncs.txt
+sample	A7BDE.785.32.99.005.0355_U_Sort_juncs.txt
+sample	A7BDE.785.33.99.006.1923_T_Sort_juncs.txt
+sample	A7BDE.785.34.99.006.1923_U_Sort_juncs.txt
+sample	A7BDE.785.35.01.008.0483_T_Sort_juncs.txt
+sample	A7BDE.785.36.01.008.0483_U_Sort_juncs.txt
+sample	RunLogan_report_09.21.2018.txt
+sample	RunLogan_results
+sample	RunLogan.txt
+path to output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunLogan
+name of output file	RunLogan_outputSpliceLauncher.xlsx
+path to graphics output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunLogan/RunLogan_results/RunLogan_figures_output/
+Junctions out of strand	2
+average depth	354.849417249417

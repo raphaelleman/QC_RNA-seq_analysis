@@ -1,0 +1,29 @@
+date of analysis	mer. févr. 26 2020 14:12:26 ; Time to analysis: 0.186269776026408 min
+name of input file	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunDouglas/RunDouglas.txt
+run id	RunDouglas
+Nb of samples	20
+sample	SAMPLE01_S12_L001_R.txt
+sample	SAMPLE02_S6_L001_R.txt
+sample	SAMPLE03_S8_L001_R.txt
+sample	SAMPLE04_S5_L001_R.txt
+sample	SAMPLE05_S2_L001_R.txt
+sample	SAMPLE06_S4_L001_R.txt
+sample	SAMPLE07_S1_L001_R.txt
+sample	SAMPLE08_S11_L001_R.txt
+sample	SAMPLE09_S16_L001_R.txt
+sample	SAMPLE10_S7_L001_R.txt
+sample	SAMPLE11_S15_L001_R.txt
+sample	SAMPLE12_S10_L001_R.txt
+sample	SAMPLE13_S20_L001_R.txt
+sample	SAMPLE14_S14_L001_R.txt
+sample	SAMPLE15_S18_L001_R.txt
+sample	SAMPLE16_S19_L001_R.txt
+sample	SAMPLE17_S17_L001_R.txt
+sample	SAMPLE18_S9_L001_R.txt
+sample	SAMPLE19_S13_L001_R.txt
+sample	SAMPLE20_S3_L001_R.txt
+path to output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunDouglas
+name of output file	RunDouglas_outputSpliceLauncher.xlsx
+path to graphics output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunDouglas/RunDouglas_results/RunDouglas_figures_output/
+Junctions out of strand	11
+average depth	11.6518779342723

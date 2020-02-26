@@ -1,0 +1,41 @@
+date of analysis	mer. févr. 26 2020 14:12:07 ; Time to analysis: 0.312064095338186 min
+name of input file	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunRien/RunRien.txt
+run id	RunRien
+Nb of samples	32
+sample	dedub.puro.RNA11.0048.1_S2_R.txt
+sample	dedub.puro.RNA11.0050.1_S3_R.txt
+sample	dedub.puro.RNA11.0052.1_S4_R.txt
+sample	dedub.puro.RNA11.0054.1_S5_R.txt
+sample	dedub.puro.RNA11.0056.1_S6_R.txt
+sample	dedub.puro.RNA11.0058.1_S7_R.txt
+sample	dedub.puro.RNA11.0060.1_S8_R.txt
+sample	dedub.puro.RNA11.0062.1_S9_R.txt
+sample	dedub.puro.RNA11.0068.1_S10_R.txt
+sample	dedub.puro.RNA11.0070.1_S11_R.txt
+sample	dedub.puro.RNA11.0072.1_S12_R.txt
+sample	dedub.puro.RNA11.0074.1_S13_R.txt
+sample	dedub.puro.RNA11.0076.1_S14_R.txt
+sample	dedub.puro.RNA11.0078.1_S15_R.txt
+sample	dedub.puro.RNA17.50741.1_S1_R.txt
+sample	dedub.wt.RNA11.0047.1_S17_R.txt
+sample	dedub.wt.RNA11.0049.1_S18_R.txt
+sample	dedub.wt.RNA11.0051.1_S19_R.txt
+sample	dedub.wt.RNA11.0053.1_S20_R.txt
+sample	dedub.wt.RNA11.0055.1_S21_R.txt
+sample	dedub.wt.RNA11.0057.1_S22_R.txt
+sample	dedub.wt.RNA11.0059.1_S23_R.txt
+sample	dedub.wt.RNA11.0061.1_S24_R.txt
+sample	dedub.wt.RNA11.0067.1_S25_R.txt
+sample	dedub.wt.RNA11.0069.1_S26_R.txt
+sample	dedub.wt.RNA11.0071.1_S27_R.txt
+sample	dedub.wt.RNA11.0073.1_S28_R.txt
+sample	dedub.wt.RNA11.0075.1_S29_R.txt
+sample	dedub.wt.RNA11.0077.1_S30_R.txt
+sample	dedub.wt.RNA17.50740.1_S16_R.txt
+sample	dedub.wt.RNAIVS10.2AG.1_S12_R.txt
+sample	puro.RNAIVS10.2pAG.1_S11_R.txt
+path to output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunRien
+name of output file	RunRien_outputSpliceLauncher.xlsx
+path to graphics output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunRien/RunRien_results/RunRien_figures_output/
+Junctions out of strand	230
+average depth	72.8862704918033

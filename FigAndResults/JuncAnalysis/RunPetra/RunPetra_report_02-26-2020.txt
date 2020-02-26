@@ -1,0 +1,45 @@
+date of analysis	mer. févr. 26 2020 14:11:14 ; Time to analysis: 0.280506273110708 min
+name of input file	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunPetra/RunPetra.txt
+run id	RunPetra
+Nb of samples	36
+sample	X001_CZMEL1_010080483_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_030060289_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_050020176_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_060090425_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_060090915_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_07III0075_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_07III0082_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_07III0085_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_07III0097_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_07III0134_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_08III0021_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_08III0059_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_08III0064_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_08III0065_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_08III0066_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_990033193_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_990050355_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_990061923_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T010080483_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T030060289_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T050020176_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T060090425_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T060090915_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T07III0075_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T07III0082_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T07III0085_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T07III0097_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T07III0134_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T08III0021_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T08III0059_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T08III0064_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T08III0065_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T08III0066_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T990033193_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T990050355_RNA_NXrun2_R.txt
+sample	X001_CZMEL1_T990061923_RNA_NXrun2_R.txt
+path to output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunPetra
+name of output file	RunPetra_outputSpliceLauncher.xlsx
+path to graphics output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunPetra/RunPetra_results/RunPetra_figures_output/
+Junctions out of strand	64
+average depth	31.8418518518519
