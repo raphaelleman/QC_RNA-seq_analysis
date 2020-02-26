@@ -6,14 +6,14 @@ argsFull <- commandArgs()
 listDir=NULL
 legendPos=0
 
-helpMessage=paste("Usage: getACP.r\n
+helpMessage=paste("Usage: getPCA.r\n
     [Mandatory] \n
         -I, --input /path/to/pooled matrix\n\t\tRead count matrix (.txt)
         -O, --output /path/to/output file.pdf/\n\t\tFile to save the results\n
         -L, --list /path/to/list of junction file\n\t\tList of junction file (.txt)
         --legend Integer\n\t\tPosition of legend [Default=0], 0: lower left, 1: upper left, 2: upper right, 3: lower right
     h, --help\n\t\tprint this help message and exit\n
-   You could : Rscript getACP.r -I path/to/matrices -O ./outputTest/")
+   You could : Rscript getPCA.r -I path/to/matrices -O ./outputTest/")
 
 #get script argument
 if (length(which(argsFull=="--args"))==0){message(helpMessage);q(save = "no")}
@@ -38,7 +38,7 @@ while (i <= length(args)){
     }
 }
 
-dataACP = read.table(inputFile,sep="\t",header=TRUE)
+dataACP = read.table(inputFile,sep="\t",header=TRUE,dec=".")
 if(!is.null(listDir)){
     list = read.table(listDir,sep="\t",header=FALSE)
     dataACP = dataACP[which(dataACP$ID%in%list$V1),]
@@ -46,6 +46,7 @@ if(!is.null(listDir)){
 }
 
 matrixACP = as.matrix(dataACP[,2:ncol(dataACP)])
+matrixACP = t(apply(matrixACP,1,function(x){x[is.na(x)]=0;return(x)}))
 
 res_pca=dudi.pca(as.matrix(matrixACP),scannf=F,nf=6,center=FALSE)
 PC1 = res_pca$co[,1]
