@@ -1,7 +1,7 @@
-date of analysis	mer. févr. 26 2020 14:12:37 ; Time to analysis: 0.221740543842316 min
+date of analysis	mer. févr. 26 2020 16:59:32 ; Time to analysis: 0.248847587903341 min
 name of input file	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunLogan/RunLogan.txt
 run id	RunLogan
-Nb of samples	39
+Nb of samples	36
 sample	A7BDE.785.01.07.111.0075_T_Sort_juncs.txt
 sample	A7BDE.785.02.07.111.0075_U_Sort_juncs.txt
 sample	A7BDE.785.03.07.111.0082_T_Sort_juncs.txt
@@ -38,11 +38,8 @@ sample	A7BDE.785.33.99.006.1923_T_Sort_juncs.txt
 sample	A7BDE.785.34.99.006.1923_U_Sort_juncs.txt
 sample	A7BDE.785.35.01.008.0483_T_Sort_juncs.txt
 sample	A7BDE.785.36.01.008.0483_U_Sort_juncs.txt
-sample	RunLogan_report_09.21.2018.txt
-sample	RunLogan_results
-sample	RunLogan.txt
 path to output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunLogan
 name of output file	RunLogan_outputSpliceLauncher.xlsx
 path to graphics output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunLogan/RunLogan_results/RunLogan_figures_output/
 Junctions out of strand	2
-average depth	354.849417249417
+average depth	373.452929292929
