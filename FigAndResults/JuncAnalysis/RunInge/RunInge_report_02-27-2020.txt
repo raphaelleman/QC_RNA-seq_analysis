@@ -1,0 +1,29 @@
+date of analysis	jeu. févr. 27 2020 09:36:11 ; Time to analysis: 0.320565179983775 min
+name of input file	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunInge/RunInge.txt
+run id	RunInge
+Nb of samples	20
+sample	X10_2X_S10.txt
+sample	X11_S1.txt
+sample	X12_S2.txt
+sample	X1_2X_S1.txt
+sample	X13_S3.txt
+sample	X14_S4.txt
+sample	X15_S5.txt
+sample	X16_S6.txt
+sample	X17_S7.txt
+sample	X18_S8.txt
+sample	X19_S9.txt
+sample	X20_S10.txt
+sample	X2_2X_S2.txt
+sample	X3_2X_S3.txt
+sample	X4_2X_S4.txt
+sample	X5_2X_S5.txt
+sample	X6_2X_S6.txt
+sample	X7_2X_S7.txt
+sample	X8_2X_S8.txt
+sample	X9_2X_S9.txt
+path to output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunInge
+name of output file	RunInge_outputSpliceLauncher.xlsx
+path to graphics output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunInge/RunInge_results/RunInge_figures_output/
+Junctions out of strand	5
+average depth	7.5693661971831

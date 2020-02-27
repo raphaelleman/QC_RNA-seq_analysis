@@ -1,0 +1,31 @@
+date of analysis	jeu. févr. 27 2020 09:36:37 ; Time to analysis: 0.186170808474223 min
+name of input file	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunRachid/RunRachid_B1_Exon4.txt
+run id	RunRachid_B1_Exon4
+Nb of samples	22
+sample	X071110075t_BRCA1c135neg_AACCCCTC.TGAACCTT_L001_R.txt
+sample	X071110075u_BRCA1c135neg_ACCCAGCA.TGAACCTT_L001_R.txt
+sample	X071110082t_BRCA1c135neg_AACCCCTC.TGCTAAGT_L001_R.txt
+sample	X071110082u_BRCA1c135neg_ACCCAGCA.TGCTAAGT_L001_R.txt
+sample	X071110085t_BRCA1c135neg_AACCCCTC.TGTTCTCT_L001_R.txt
+sample	X071110085u_BRCA1c135neg_ACCCAGCA.TGTTCTCT_L001_R.txt
+sample	X071110097t_BRCA1c135neg_AACCCCTC.TAAGACAC_L001_R.txt
+sample	X071110097u_BRCA1c135neg_ACCCAGCA.TAAGACAC_L001_R.txt
+sample	X071110134t_BRCA1c135neg_AACCCCTC.CTAATCGA_L001_R.txt
+sample	X071110134u_BRCA1c135neg_ACCCAGCA.CTAATCGA_L001_R.txt
+sample	X081110021t_BRCA1c135neg_AACCCCTC.CTAGAACA_L001_R.txt
+sample	X081110021u_BRCA1c135neg_ACCCAGCA.CTAGAACA_L001_R.txt
+sample	X081110059t_BRCA1c135neg_AACCCCTC.TAAGTTCC_L001_R.txt
+sample	X081110059u_BRCA1c135neg_ACCCAGCA.TAAGTTCC_L001_R.txt
+sample	X081110064t_BRCA1c135neg_AACCCCTC.TAGACCTA_L001_R.txt
+sample	X081110064u_BRCA1c135neg_ACCCAGCA.TAGACCTA_L001_R.txt
+sample	X081110065t_BRCA1c135neg_ACAAACGG.TAAGTTCC_L001_R.txt
+sample	X081110065u_BRCA1c135neg_ACAAACGG.CTAATCGA_L001_R.txt
+sample	X081110066t_BRCA1c135neg_ACAAACGG.TAGACCTA_L001_R.txt
+sample	X081110066u_BRCA1c135neg_ACAAACGG.CTAGAACA_L001_R.txt
+sample	X990061923t_BRCA1c135_ACAAACGG.TGCTAAGT_L001_R.txt
+sample	X990061923u_BRCA1c135_ACAAACGG.TGAACCTT_L001_R.txt
+path to output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunRachid
+name of output file	RunRachid_B1_Exon4_outputSpliceLauncher.xlsx
+path to graphics output	/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/JuncAnalysis/RunRachid/RunRachid_B1_Exon4_results/RunRachid_B1_Exon4_figures_output/
+Junctions out of strand	95
+average depth	233.254748982361
