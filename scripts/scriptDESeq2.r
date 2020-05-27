@@ -33,7 +33,7 @@ helpMessage=paste("Usage: scriptDESeq2.r\n
 if (length(which(argsFull=="--args"))==0){message(helpMessage);q(save = "no")}
 
 args = argsFull[(which(argsFull=="--args")+1):length(argsFull)]
-if (length(args)<3){message(helpMessage);q(save = "no")}
+if (length(args)<1){message(helpMessage);q(save = "no")}
 
 i=1
 while (i <= length(args)){
