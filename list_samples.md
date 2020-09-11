@@ -1,6 +1,6 @@
 | Sample names | Variants | NMD inhibitor |
-|:------------:|:--------:|:--------:|:------------:|
-| Logan |
+|:------------:|:--------:|:--------:|
+| Logan |  |  |
 | A7BDE-785-33-99-006-1923_T.fastq.gz | BRCA1_IVS04-1G>T | + |
 | A7BDE-785-34-99-006-1923_U.fastq.gz | BRCA1_IVS04-1G>T | - |
 | A7BDE-785-27-06-009-0915_T.fastq.gz | BRCA1_IVS10-2A>G | + |
@@ -36,7 +36,7 @@
 | A7BDE-785-18-08-111-0065_U.fastq.gz | TN | - |
 | A7BDE-785-19-08-111-0066_T.fastq.gz | TN | + |
 | A7BDE-785-20-08-111-0066_U.fastq.gz | TN | - |
-| Petra |
+| Petra |  |  |
 | 001_CZMEL1_ech_060090915_RNA_NXrun2_R1.fastq.gz | BRCA1_IVS10-2A>G | - |
 | 001_CZMEL1_ech_T060090915_RNA_NXrun2_R1.fastq.gz | BRCA1_IVS10-2A>G | + |
 | 001_CZMEL1_ech_050020176_RNA_NXrun2_R1.fastq.gz | BRCA1_IVS23+5G>C | - |
@@ -73,7 +73,7 @@
 | 001_CZMEL1_ech_T08III0064_RNA_NXrun2_R1.fastq.gz | TN_TN | + |
 | 001_CZMEL1_ech_T08III0065_RNA_NXrun2_R1.fastq.gz | TN_TN | + |
 | 001_CZMEL1_ech_T08III0066_RNA_NXrun2_R1.fastq.gz | TN_TN | + |
-| Rien |
+| Rien |  |  |
 | dedub.wt-RNA11-0047-1_S17 | BRCA2_IVS20+1G>A_U | - |
 | dedub.puro-RNA11-0048-1_S2 | BRCA2_IVS20+1G>A_T | + |
 | dedub.wt-RNA11-0049-1_S18 | BRCA1_IVS9-2A>C_U | - |
@@ -106,9 +106,9 @@
 | dedub.puro-RNA17-50741-1_S1 | BRCA1_IVS4-1G>T_T | + |
 | dedub.wt-RNAIVS10-2AG-1_S12 | BRCA1_IVS10-2A>G_U | - |
 | puro-RNAIVS10-2pAG-1_S11 | BRCA1_IVS10-2A>G_T | + |
-| Rachid |
+| Rachid |  |  |
 | Too samples (n = 180) |
-| Caen |
+| Caen |  |  |
 | R9_01 | Lignée TN  | - |
 | R9_02 | Lignée TN  | + |
 | R9_03 | B2 IVS4-12_-8del | - |
@@ -129,7 +129,7 @@
 | R9_18 | B1 c.591C>T | + |
 | R9_19 | B1  IVS10-2 | - |
 | R9_20 | B1  IVS10-2 | + |
-| Mthomassen |
+| Mthomassen |  |  |
 | Logan_sample_treated_S3.count | BRCA1_IVS10-2A>G_T | + |
 | Logan_sample_untreated_S4.count | BRCA1_IVS10-2A>G_U | - |
 | smp1_S1. | BRCA1c.135-1G>T | - |
@@ -152,7 +152,7 @@
 | smp18_S7. | TN_TN | - |
 | smp19_S8. | TN_TN | - |
 | smp20_S9. | TN_TN | - |
-| Kvist |
+| Kvist |  |  |
 | LU_01.008.0483_LCL_totRNA_L1_S1 | BRCA2_c.7988A>T/p.Glu2663Val) | - |
 | LU_01.008.0483_LCL_mRNA_L1_S1 | BRCA2_c.7988A>T/p.Glu2663Val) | - |
 | LU_03.006.0289_LCL_totRNA_L1_S1 | BRCA2_IVS4-12_-8del5 | - |
@@ -177,7 +177,7 @@
 | LU_99.005.0355_LCL_totRNA_L1_S1 | BRCA1_IVS9-2A>C | - |
 | LU_99.005.0355_LCL_mRNA_L1_S1 | BRCA1_IVS9-2A>C | - |
 | LU_99.006.1923_LCL_totRNA_L1_S1 | BRCA1_IVS04-1G>T | - |
-| Douglas |
+| Douglas |  |  |
 | SAMPLE1_S12_L001_. | TN_TN | - |
 | SAMPLE2_S6_L001_. | TN_TN | - |
 | SAMPLE3_S8_L001_. | TN_TN | - |
@@ -198,7 +198,7 @@
 | SAMPLE18_S9_L001_. | BRCA2_c.7988A>T/p.Glu2663Val) | - |
 | SAMPLE19_S13_L001_. | BRCA1_IVS10-2A>G_T | - |
 | SAMPLE20_S3_L001_. | BRCA1_IVS10-2A>G_U | + |
-| Inge |
+| Inge |  |  |
 | 1_2X_S1 | BRCA1 c.135-1G>T | - |
 | 2_2X_S2 | BRCA2 c.8632+1G>A | - |
 | 3_2X_S3 | BRCA1 c.594-2A>C | - |
@@ -219,7 +219,7 @@
 | 18_S8 | TN_TN | - |
 | 19_S9 | TN_TN | - |
 | 20_S10 | TN_TN | - |
-| VoHansen |
+| VoHansen |  |  |
 | Qbirk-00001 | TN | - |
 | Qbirk-00002 | TN | - |
 | Qbirk-00003 | TN | - |
