@@ -40,5 +40,5 @@ dexseqPath = c(
 "/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunCaen/B2_IVS25+3A_T/untreatedNMD/Dexseq"
 )
 
-flattenedFile = "/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/refData/refgene_exon_BRCA.gtf"
+flattenedFile = "/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/refData/refgene_exon_BRCA.gtf"
 
