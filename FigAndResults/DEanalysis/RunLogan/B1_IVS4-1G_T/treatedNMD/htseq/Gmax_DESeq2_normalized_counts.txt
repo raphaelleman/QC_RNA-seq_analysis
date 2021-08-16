@@ -1,3 +1,3 @@
-"Cont_B1_trea_21-03-006-0289_T.count"	"Cont_B1_trea_25-06-009-0425_T.count"	"Cont_B1_trea_29-99-003-3193_T.count"	"Cont_B1_trea_35-01-008-0483_T.count"	"Cont_trea_01-07-111-0075_T.count"	"Cont_trea_03-07-111-0082_T.count"	"Cont_trea_05-07-111-0085_T.count"	"Cont_trea_07-07-111-0097_T.count"	"Cont_trea_09-07-111-0134_T.count"	"Cont_trea_11-08-111-0021_T.count"	"Cont_trea_13-08-111-0059_T.count"	"Cont_trea_17-08-111-0065_T.count"	"Cont_trea_19-08-111-0066_T.count"	"Muta_trea_33-99-006-1923_T.count"
-"BRCA1"	78447	35197	80699	11570	94654	61981	87086	74881	61324	45775	116964	165437	153019	10018
-"BRCA2"	64894	46176	77959	10522	106310	50594	86522	103640	75117	75954	156658	203954	146767	13463
+"Cont_B1_trea_25-06-009-0425_T.count"	"Cont_B1_trea_29-99-003-3193_T.count"	"Cont_B1_trea_35-01-008-0483_T.count"	"Cont_trea_01-07-111-0075_T.count"	"Cont_trea_03-07-111-0082_T.count"	"Cont_trea_05-07-111-0085_T.count"	"Cont_trea_07-07-111-0097_T.count"	"Cont_trea_09-07-111-0134_T.count"	"Cont_trea_11-08-111-0021_T.count"	"Cont_trea_13-08-111-0059_T.count"	"Cont_trea_17-08-111-0065_T.count"	"Cont_trea_19-08-111-0066_T.count"	"Muta_trea_33-99-006-1923_T.count"
+"BRCA1"	35197	80699	11570	94654	61981	87086	74881	61324	45775	116964	165437	153019	10018
+"BRCA2"	46176	77959	10522	106310	50594	86522	103640	75117	75954	156658	203954	146767	13463

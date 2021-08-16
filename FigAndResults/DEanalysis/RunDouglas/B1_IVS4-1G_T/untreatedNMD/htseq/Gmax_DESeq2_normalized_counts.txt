@@ -1,3 +1,3 @@
-"Cont_B1_unt_11.count"	"Cont_B1_unt_13.count"	"Cont_B1_unt_15.count"	"Cont_B1_unt_18.count"	"Cont_unt_1.count"	"Cont_unt_10.count"	"Cont_unt_2.count"	"Cont_unt_3.count"	"Cont_unt_4.count"	"Cont_unt_5.count"	"Cont_unt_6.count"	"Cont_unt_7.count"	"Cont_unt_8.count"	"Cont_unt_9.count"	"Muta_unt_17.count"
-"BRCA1"	1504	1363	2269	1536	2344	2244	1846	1234	1912	1813	1041	1733	5496	1723	1520
-"BRCA2"	1132	1165	1587	712	1421	1128	1079	657	1354	1094	561	1223	3599	1064	1046
+"Cont_B1_unt_13.count"	"Cont_B1_unt_15.count"	"Cont_B1_unt_18.count"	"Cont_unt_1.count"	"Cont_unt_10.count"	"Cont_unt_2.count"	"Cont_unt_3.count"	"Cont_unt_4.count"	"Cont_unt_5.count"	"Cont_unt_6.count"	"Cont_unt_7.count"	"Cont_unt_9.count"	"Muta_unt_17.count"
+"BRCA1"	1363	2269	1536	2344	2244	1846	1234	1912	1813	1041	1733	1723	1520
+"BRCA2"	1165	1587	712	1421	1128	1079	657	1354	1094	561	1223	1064	1046
