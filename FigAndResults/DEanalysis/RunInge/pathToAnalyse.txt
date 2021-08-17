@@ -1,26 +1,28 @@
 htseqPath = c(
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B1_c.591C_T/untreatedNMD/htseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B1_IVS4-1G_T/untreatedNMD/htseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B1_IVS9-2A_C/untreatedNMD/htseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B1_IVS10-2A_G/untreatedNMD/htseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B1_IVS23+5G_C/untreatedNMD/htseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B2_c.7988A_T/untreatedNMD/htseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B2_IVS4-12_-8del/untreatedNMD/htseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B2_IVS20+1G_A/untreatedNMD/htseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B2_IVS25+3A_T/untreatedNMD/htseq"
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_c.591C_T/untreatedNMD/htseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_IVS4-1G_T/untreatedNMD/htseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_IVS9-2A_C/untreatedNMD/htseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_IVS10-2A_G/untreatedNMD/htseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_IVS18+1G_T/untreatedNMD/htseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_IVS23+5G_C/untreatedNMD/htseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B2_c.7988A_T/untreatedNMD/htseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B2_IVS4-12_-8del/untreatedNMD/htseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B2_IVS20+1G_A/untreatedNMD/htseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B2_IVS25+3A_T/untreatedNMD/htseq"
 )
 
 dexseqPath = c(
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B1_c.591C_T/untreatedNMD/Dexseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B1_IVS4-1G_T/untreatedNMD/Dexseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B1_IVS9-2A_C/untreatedNMD/Dexseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B1_IVS10-2A_G/untreatedNMD/Dexseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B1_IVS23+5G_C/untreatedNMD/Dexseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B2_c.7988A_T/untreatedNMD/Dexseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B2_IVS4-12_-8del/untreatedNMD/Dexseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B2_IVS20+1G_A/untreatedNMD/Dexseq",
-"/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/FigAndResults/DEanalysis/RunInge/B2_IVS25+3A_T/untreatedNMD/Dexseq"
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_c.591C_T/untreatedNMD/Dexseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_IVS4-1G_T/untreatedNMD/Dexseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_IVS9-2A_C/untreatedNMD/Dexseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_IVS10-2A_G/untreatedNMD/Dexseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_IVS18+1G_T/untreatedNMD/Dexseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B1_IVS23+5G_C/untreatedNMD/Dexseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B2_c.7988A_T/untreatedNMD/Dexseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B2_IVS4-12_-8del/untreatedNMD/Dexseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B2_IVS20+1G_A/untreatedNMD/Dexseq",
+"/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/DEanalysis/RunInge/B2_IVS25+3A_T/untreatedNMD/Dexseq"
 )
 
-flattenedFile = "/home/lemrap/serveurs/crihan/local_data/RNASeq/QC_RNAseq/QC-RNAseqAnalysis/refData/refgene_exon_BRCA.gtf"
+flattenedFile = "/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/refData/refgene_exon_BRCA.gtf"
 
