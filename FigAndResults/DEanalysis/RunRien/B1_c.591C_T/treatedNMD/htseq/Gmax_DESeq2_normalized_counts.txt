@@ -1,3 +1,3 @@
-"Cont_B1_trea_puro-RNA11-0048-1_S2.count"	"Cont_B1_trea_puro-RNA11-0052-1_S4.count"	"Cont_B1_trea_puro-RNA11-0054-1_S5.count"	"Cont_B1_trea_puro-RNA11-0056-1_S6.count"	"Cont_trea_puro-RNA11-0068-1_S10.count"	"Cont_trea_puro-RNA11-0070-1_S11.count"	"Cont_trea_puro-RNA11-0072-1_S12.count"	"Cont_trea_puro-RNA11-0074-1_S13.count"	"Cont_trea_puro-RNA11-0076-1_S14.count"	"Cont_trea_puro-RNA11-0078-1_S15.count"	"Muta_trea_puro-RNA11-0058-1_S7.count"
-"BRCA1"	41563	10949	83786	81613	68766	73164	75815	52609	62542	45792	48953
-"BRCA2"	126334	21250	220005	151235	102425	191068	153985	123151	149016	147659	93677
+"Cont_B1_trea_puro-RNA11-0048-1_S2.count"	"Cont_B1_trea_puro-RNA11-0054-1_S5.count"	"Cont_B1_trea_puro-RNA11-0056-1_S6.count"	"Cont_trea_puro-RNA11-0068-1_S10.count"	"Cont_trea_puro-RNA11-0070-1_S11.count"	"Cont_trea_puro-RNA11-0072-1_S12.count"	"Cont_trea_puro-RNA11-0074-1_S13.count"	"Cont_trea_puro-RNA11-0076-1_S14.count"	"Cont_trea_puro-RNA11-0078-1_S15.count"	"Muta_trea_puro-RNA11-0058-1_S7.count"
+"BRCA1"	41563	83786	81613	68766	73164	75815	52609	62542	45792	48953
+"BRCA2"	126334	220005	151235	102425	191068	153985	123151	149016	147659	93677
