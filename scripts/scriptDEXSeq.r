@@ -174,7 +174,7 @@ DEXSeq <- function(inDir=NULL, flattenedFile = NULL, sampleNames=NULL, sampleCon
     dxd = testForDEU( dxd, reducedModel = formulaReducedModel, fullModel = formulaFullModel)
 
     dxr2 = DEXSeqResults( dxd )
-
+    write.table(dxr2,"dexseq_result.txt",quote=FALSE)
     pdf("BRCA1.pdf",width=20, height=10)
     plotDEXSeq( dxr2, "BRCA1", legend=TRUE, cex.axis=1.2, cex=1.3,lwd=2 )
     dev.off()

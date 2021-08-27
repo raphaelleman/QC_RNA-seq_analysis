@@ -1,0 +1,10 @@
+/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/JuncAnalysis/RunCaen/getClosestExons/
+/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/JuncAnalysis/RunDouglas/getClosestExons/
+/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/JuncAnalysis/RunInge/getClosestExons/
+/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/JuncAnalysis/RunKvist/getClosestExons/
+/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/JuncAnalysis/RunLogan/getClosestExons/
+/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/JuncAnalysis/RunMthomassen/getClosestExons/
+/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/JuncAnalysis/RunPetra/getClosestExons/
+/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/JuncAnalysis/RunRachid/getClosestExons/
+/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/JuncAnalysis/RunRien/getClosestExons/
+/home/lemrap/serveurs/newNgs/stockage/Recherche/RNA-seq/QC_RNA-seq_analysis/FigAndResults/JuncAnalysis/RunVohansen/getClosestExons/
